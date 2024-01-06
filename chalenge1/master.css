@@ -1,0 +1,339 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+:root {
+  --main-color: #eee6;
+  --secondary-color: #ffffff;
+  --thith-color: #03a9f4;
+}
+/* start header */
+.header {
+  padding-bottom: 70px;
+  height: 50px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container h3 {
+  font-weight: 500;
+}
+.header .container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+}
+.header .container ul li {
+  display: inline;
+  padding: 8px;
+}
+.header .container ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* end header */
+/* start landing */
+.landing {
+  background-color: var(--main-color);
+  width: 100%;
+}
+.landing .intro-text {
+  padding-bottom: 50px;
+  padding-top: 30px;
+  background-color: var(--main-color);
+}
+.landing .intro-text p {
+  line-height: 1.8;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
+}
+.landing .intro-text h1 {
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.landing .intro-text h1 span {
+  color: #03a9f4;
+  padding-left: 10px;
+}
+
+/* end landing */
+/* start features  */
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.features .container .feat img {
+  width: 50%;
+  height: 50%;
+}
+.features .container .feat {
+  text-align: center;
+}
+.features .container .feat p {
+  width: ;
+}
+.features .feat h3 {
+  font-weight: 800;
+  margin: 30px 0;
+}
+.features .feat p {
+  line-height: 1.8;
+  color: #777;
+  font-size: 17px;
+}
+
+/* end features  */
+/* start about  */
+.about {
+  background-color: #f6f6f6;
+}
+
+.about .container {
+  display: flex;
+  gap: 70px;
+}
+.about .container .image img {
+  width: 500px;
+  height: 300px;
+}
+.about .container .definition {
+  padding-top: 20px;
+}
+.about .container .definition p {
+  line-height: 1.6;
+}
+.about .container .definition h1 {
+  font-weight: 600;
+}
+
+/* end about  */
+/* start services */
+.services {
+  height: ;
+}
+.services .container {
+  height: 300px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.services .container .triangle {
+  text-align: center;
+  position: relative;
+  width: 500px;
+  height: 150px;
+  border-radius: 5px;
+  color: #eee;
+}
+.services .container .red {
+  background-color: #b33939;
+}
+.services .container .blue {
+  background-color: #227093;
+}
+.services .container .green {
+  background-color: #218c74;
+}
+.services .container .triangle h1 {
+  font-weight: 400;
+  font-size: 50px;
+}
+.services .container .triangle p {
+  font-size: 20px;
+}
+.services .container .red::before {
+  content: "Services";
+  position: absolute;
+  top: 85px;
+  left: 140px;
+}
+.services .container .blue::before {
+  content: "Services";
+  position: absolute;
+  top: 85px;
+  left: 140px;
+}
+.services .container .green::before {
+  content: "Services";
+  position: absolute;
+  top: 85px;
+  left: 142px;
+}
+/* end services */
+/* start skills */
+.skills{
+  background-color: #eee;
+  height: 500px;
+}
+.skills .container{
+  text-align: center;
+  padding-top: 10px;
+ 
+}
+.skills .container .title h1{
+  font-weight: 400;
+  text-align: center;
+  font-size: 40px;
+}
+.skills .container .skill{
+}
+.skills .container  .row1 {
+  width: 50%;
+  height: 50px;
+  background-color: var(--thith-color);
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+.skills .container .row2{
+  width: 60%;
+  height: 50px;
+  background-color: var(--thith-color);
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+.skills .container  .row3 {
+  width: 70%;
+  height: 50px;
+  background-color: var(--thith-color);
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+.skills .container  .row4 {
+  width: 55%;
+  height: 50px;
+  background-color: var(--thith-color);
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+.skills .container  .row5 {
+  width: 80%;
+  height: 50px;
+  background-color: var(--thith-color);
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+.row{
+  position: relative;
+}
+.row1::before{
+  content: "HTML";
+  color: black;
+  position: absolute;
+  left: -70px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.row2::before{
+  content: "CSS";
+  color: black;
+  position: absolute;
+  left: -55px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.row3::before{
+  content: "JAVASCRIPT";
+  color: black;
+  position: absolute;
+  left: -138px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.row4::before{
+  content: "PHP";
+  color: black;
+  position: absolute;
+  left: -60px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.row5::before{
+  content: "PYTHON";
+  color: black;
+  position: absolute;
+  left: -100px;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* end skills */
+/* start footer */
+.footer {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer span {
+  font-weight: bold;
+  color: var(--thith-color);
+}
+
+/* end footer */

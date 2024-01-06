@@ -1,0 +1,227 @@
+body {
+  font-family: "roboto", sans-serif;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  background-color: #555a59;
+}
+:root {
+  --main-color: #aaff00;
+}
+.container {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.container .landing .nav {
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  box-shadow: 5px 0px 10px 0px #ddd;
+  margin-bottom: 20px;
+}
+.container .landing .login {
+  width: 100%;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.container .landing .login .form {
+  margin-top: -20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.container .landing .login .vectorbg {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .landing .login .vectorbg .vector {
+}
+.container .landing .login .vectorbg .vector img {
+  width: 80%;
+}
+.container .landing .login .form .content {
+  width: 60%;
+  height: 75%;
+}
+.container .landing .login .form .content .title {
+  width: 60%;
+}
+
+.container .landing .login .form .content .title p {
+  font-size: 45px;
+  font-weight: 750;
+  letter-spacing: 1px;
+  line-height: 55px;
+}
+.container .landing .login .form .content .sign label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: #555a59;
+  letter-spacing: 1.4px;
+}
+.container .landing .login .form .content .sign {
+  width: 80%;
+  background-color: #ffffff;
+}
+
+.container .landing .login .form .content .sign input {
+  display: block;
+}
+.container .landing .login .form .content .sign .emailtxt,
+.passwordtxt {
+  width: 90%;
+  height: 45px;
+  outline: 0px;
+  border-color: #555a595d;
+  border-width: 0.1px;
+  font-size: 21px;
+  font-weight: 500;
+  color: #555a59;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+.container .landing .login .form .content .sign input::placeholder {
+  color: #555a5975;
+  font-size: 18px;
+}
+
+.container .landing .login .form .content .sign {
+  position: relative;
+}
+.container .landing .login .form .content .sign .keep {
+  position: absolute;
+  left: 22px;
+  bottom: -19px;
+  display: block;
+  font-size: 16px;
+  color: #555a59;
+  letter-spacing: 1.4px;
+}
+.container .landing .login .form .content .signup {
+  font-size: 16px;
+  color: #555a59;
+  letter-spacing: 1.4px;
+}
+.keep span {
+  color: var(--main-color);
+  letter-spacing: 1.5px;
+  margin-left: 55px;
+}
+.signup span {
+  color: var(--main-color);
+  letter-spacing: 1.5px;
+}
+span:hover {
+  color: #555a59;
+  cursor: pointer;
+}
+
+.container .landing .login .form .content .btn:hover {
+  color: var(--main-color);
+  background-color: #ffffff;
+  border: 1.4px var(--main-color) solid;
+}
+.container .landing .login .form .content .btn {
+  transition-duration: 0.5s;
+  color: #ffffff;
+  width: 165px;
+  height: 50px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaff00;
+  font-weight: 800;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+.container .nav {
+  display: grid;
+  grid-template-columns: 15% 30% 55%;
+  align-items: center;
+}
+.container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .logo p {
+  font-weight: 750;
+  letter-spacing: 1px;
+  font-size: 23px;
+}
+.container .logo p:hover {
+  cursor: pointer;
+}
+.container .nav p:hover {
+  cursor: pointer;
+}
+.container .logo p:hover {
+  cursor: pointer;
+}
+.container .nav ol li {
+  margin-right: 30px;
+  font-weight: 600;
+  color: #555a59f1;
+}
+
+.container .nav li {
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+
+.container .nav .btns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container .nav .btns .join {
+  width: 100px;
+  background-color: var(--main-color);
+  height: 40px;
+  margin-right: 8px;
+  transition-duration: 0.5s;
+  color: #ffffff;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaff00;
+  font-weight: 600;
+  border: 2.5px var(--main-color) solid;
+}
+.container .nav .btns .join:hover {
+  width: 110px;
+  background-color: #ffffff;
+  color: var(--main-color);
+  border: 2.5px var(--main-color) solid;
+}
+.container .nav .btns .signin {
+  width: 100px;
+  background-color: #ffffff;
+  height: 40px;
+  margin-right: 20px;
+  transition-duration: 0.5s;
+  color: var(--main-color);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border: 2.5px var(--main-color) solid;
+}
+.container .nav .btns .signin:hover {
+  background-color: var(--main-color);
+  color: #ffffff;
+  background-color: #aaff00;
+  border: 2.5px var(--main-color) solid;
+  width: 110px;
+}

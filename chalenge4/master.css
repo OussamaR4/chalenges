@@ -1,0 +1,198 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ddd;
+  width: 1100px;
+  height: 700px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #4c3d64;
+}
+.container .landing {
+  width: 40%;
+  background-color: #4c3d64;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  position: relative;
+  /* border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px; */
+}
+
+.container .landing .bg {
+  width: 90%;
+  height: 50%;
+  background-image: url(imgs/login.png);
+  background-size: ;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 55px;
+  left: 70px;
+}
+
+.container .landing {
+  display: flex;
+  justify-content: center;
+}
+.container .landing q {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-size: 27px;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 30px;
+  text-transform: capitalize;
+  opacity: 90%;
+  line-height: 40px;
+  letter-spacing: 2.5px;
+  position: absolute;
+  left: 52px;
+  top: 120px;
+  opacity: 95%;
+}
+.container .landing span {
+  color: #ddd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+.container .landing p {
+  color: #ddd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  position: absolute;
+  left: 75px;
+  top: 18px;
+}
+.container .landing h5 {
+  color: #ddd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 9px;
+  position: absolute;
+  left: 50px;
+  top: 45px;
+}
+.container .signup {
+  width: 60%;
+  background-color: seashell;
+  border-radius: 50px;
+  height: 100%;
+  position: relative;
+}
+.container .signup .sign {
+  width: 70%;
+  height: 460px;
+  margin-left: 90px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container .signup .sign p {
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  font-family: "roboto";
+  font-weight: 500;
+  margin-bottom: -0px;
+  opacity: 95%;
+  color: rgba(0, 0, 0, 0.74);
+}
+.container .signup .sign .box {
+  font-family: "Encode Sans", sans-serif;
+  height: 40px;
+  background-color: transparent;
+  border: 0px;
+  font-weight: 350;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+  font-size: 19px;
+  color: rgba(90, 90, 90, 0.925);
+  opacity: 80%;
+}
+.container .signup .sign .bx3 {
+  margin-bottom: 25px;
+}
+.container .signup .sign .box::placeholder {
+  color: rgba(0, 0, 0, 0.596);
+}
+.container .signup .sign .box:focus {
+  outline: 0px;
+}
+.container .signup .check {
+  display: inline;
+  margin: 0px;
+  margin-bottom: -46px;
+}
+.container .signup .agree {
+  display: inline;
+  margin: 0px;
+  margin-left: 20px;
+  opacity: 70%;
+}
+
+.container .signup .agree span {
+  color: #5c27b3;
+  font-weight: 600;
+}
+.container .signup .btn {
+  height: 60px;
+  background-color: #4c3d64c0;
+  border: 0px;
+  border-radius: 60px;
+  color: #fff;
+  font-family: "roboto";
+  font-size: 20px;
+  font-weight: 500;
+}
+.container .signup .up {
+  text-align: center;
+  color: rgba(17, 17, 17, 0.5);
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  opacity: 90%;
+}
+.container .signup .up::before {
+  content: "";
+  width: 148px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.308);
+  position: absolute;
+  left: 0px;
+  top: 13px;
+}
+.container .signup .up::after {
+  content: "";
+  width: 148px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.247);
+  position: absolute;
+  right: 5px;
+  top: 13px;
+}
+.foot {
+  position: absolute;
+  bottom: 100px;
+  width: 60%;
+  height: 50px;
+  margin-left: 120px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.foot img {
+  width: 30px;
+  margin-right: -50px;
+  border-radius: 50%;
+  border: 1px solid rgba(128, 128, 128, 0.116);
+}
